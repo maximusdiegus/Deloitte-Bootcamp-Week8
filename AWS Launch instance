@@ -1,0 +1,2 @@
+aws ec2 run-instances --image-id [IMAGE_ID] --count [AMOUNT_OF_INSTANCES] --instance-type [MACHINE_SIZE] --key-name [KEY_PAIR_NAME] --subnet-id [SUBNET_ID]
+aws ec2 run-instances --image-id i-0958e4db16c1893fecount --count 1 --instance-type t3.small --key-name key-08abc62c2125083a7 --subnet-id subnet-0c975a94dee814b31
